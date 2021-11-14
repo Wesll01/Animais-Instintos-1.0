@@ -9,23 +9,25 @@
   <script>
     document.documentElement.className += ' js'
   </script>
-  <title>Animais Fantasticos</title>
+
+  <title>Animais Em Extinção</title>
 
 </head>
 <body style="background-color: rgb(195, 253, 188);">
-  <nav class="menu">
-    <ul class="navmenu">
+  <!-- menu de navegação para as seções-->
+  <nav class="menu"><!-- menu identifica a seção nav para manipular em css e js--> 
+    <ul class="navmenu"><!-- navmenu identifica a seção ul dentro de nav para manipular em css e js--> 
       <li>Aves</li>
       <li>Répteis</li>
       <li><a href="#contato">Contato</a></li>
       <li><a href="https://www.origamid.com/">Dev →</a></li>
     </ul>
   </nav>
-
-  <section class="grid-section" >
-    <h1 class="titulo">Animais em Extinção Aves</h1>
-    <div class="secao">
-   <ul class="animais-lista js-tabmenu">
+<!-- seção dos animais Aves--> 
+  <section class="grid-section" > <!-- grid-section identifica a seção para manipular em css e js--> 
+    <h1 class="titulo">Animais em Extinção Aves</h1><!-- titulo identifica h1 dentro de grid-section para manipular somente esse h1 em css e js--> 
+    <div class="secao"><!-- essa div coloquei para criar uma grid sendo que por padrão a section é none css e js--> 
+   <ul class="animais-lista js-tabmenu"><!-- animais-lista serve para manipular todas as imagens dessa seção-->
     <li>
       <img src="img/arara-azul-635338985.jpg">
       
@@ -51,9 +53,9 @@
    </ul>
    
   
-  <div class="animais-descricao ">
+  <div class="animais-descricao "><!-- animais-descricao é a div referente as informações dos animais para manipular em css e js--> 
   
-    <ul class="animais js-tabcontent">
+    <ul class="animais js-tabcontent"> <!--ul que essas informações coloquei cada informação dentro de uma lista para manipular todas ataves de animais-->
       <li>
       <h2> Arara-Azul-Pequena </h2>
       <p>
@@ -97,7 +99,8 @@
 
   </div>
 </div>
-<ul class="video">
+
+<ul class="video"> <!-- area de videos informativos sobre os animais identificado por video para manipular em css e js-->
   <li>
     <iframe width="420" height="315"
 src="https://www.youtube.com/embed/n51US87QtLc">
@@ -118,6 +121,8 @@ src="https://www.youtube.com/embed/Q5mYPTmjwco" >
 </ul>
  
   </section>
+  <!-- As proximas seções segue a mesma logica da primeira-->
+  <!-- seção dos animais Repteis--> 
   <section class="grid-section1"  id="repteis">
     <h1 class="titulo2">Animais em Extinção Répteis</h1>
    <ul class="animais-lista1 js-tabmenu1" >

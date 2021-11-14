@@ -22,7 +22,7 @@ function initTabNav(){
   });
   }
   }
-  initTabNav();
+  initTabNav();/* função para as imagens onde no evento de clique do animal a descrição aparece onde ele associa a li do da imagem a li de descrição */
  
 function initNav(){
     const navMenu = document.querySelectorAll('.navmenu li');
@@ -49,6 +49,6 @@ function initNav(){
     }
     }
     
-    initNav();
+    initNav(); // função para o menu onde associa a li do menu clicado a seção do animal correspondente 
 
     console.log(navContent);
