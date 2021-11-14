@@ -94,7 +94,9 @@ body{
 }
 .video{
   overflow-x: scroll;
-  display: inline;
+}
+.video li{
+  display: inline-block;
 }
 .secao .animais-lista {
   height: 370px;
