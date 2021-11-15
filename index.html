@@ -6,55 +6,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style copy.css">
   <script>
     document.documentElement.className += ' js'
   </script>
-  <title>Animais Fantasticos</title>
+
+  <title>Animais Em Extinção</title>
 
 </head>
-
-<body>
-  <nav class="menu">
-    <ul class="navmenu">
+<body style="background-color: rgb(195, 253, 188);">
+  <!-- menu de navegação para as seções-->
+  <nav class="menu"><!-- menu identifica a seção nav para manipular em css e js--> 
+    <ul class="navmenu"><!-- navmenu identifica a seção ul dentro de nav para manipular em css e js--> 
       <li>Aves</li>
       <li>Répteis</li>
-      <li><a href="#contato">Contato</a></li>
-      <li><a href="https://www.origamid.com/">Dev →</a></li>
+      <li>Peixes</li>
+      <li>Anfibios</li>
+      <li>Manmiferos</li>
+      <li>Quiz</li>
     </ul>
   </nav>
 
-  <section class="ongs"> 
-      <p>Doe para alguma ONG de proteção aos animais !</p>
-      <div id="ArcaBrasil">
-        <a href="https://arcabrasil.org.br/" target="_blank">
-          <img src="img/logoArcaBrasil.png">
-        </a>
-      </div>
-      <div id="SaveBrasil">
-        <a href="http://savebrasil.org.br/" target="_blank">
-          <img src="http://savebrasil.org.br/assets/themes/savebr_site/assets/images/savebr-8514136d6e446b8309372c062da6531524d3babf84e9d683057e894ae1aecce2.svg">
-        </a>
-      </div>
-      <div id="ProjetoMucky">
-        <a href="https://www.projetomucky.org.br/" target="_blank">
-          <img src="img/logoProjetoMucky.png">
-        </a>
-      </div>
-      <div id="ProjetoTamar">
-        <a href="https://www.tamar.org.br/" target="_blank">
-          <img src="img/logoProjetoTamar.png">
-        </a>
-      </div>
-      <div id="SUIPA">
-        <a href="https://www.suipa.org.br/" target="_blank">
-          <img src="img/logoSUIPA.png">
-        </a>
-      </div>
+  <section class="ongs"> <!-- seção de redirecionamento para as ONGs de proteção aos animais em extinção no Brasil -->
+    <p>Doe para alguma ONG de proteção aos animais !</p>
+    <div id="ArcaBrasil">
+      <a href="https://arcabrasil.org.br/" target="_blank">
+        <img src="img/logoArcaBrasil.png" alt="Logo da ONG: Arca Brasil">
+      </a>
+    </div>
+    <div id="SaveBrasil">
+      <a href="http://savebrasil.org.br/" target="_blank">
+        <img src="http://savebrasil.org.br/assets/themes/savebr_site/assets/images/savebr-8514136d6e446b8309372c062da6531524d3babf84e9d683057e894ae1aecce2.svg" alt="Logo da ONG: Save Brasil">
+      </a>
+    </div>
+    <div id="ProjetoMucky">
+      <a href="https://www.projetomucky.org.br/" target="_blank">
+        <img src="img/logoProjetoMucky.png" alt="Logo da ONG: Projeto Mucky">
+      </a>
+    </div>
+    <div id="ProjetoTamar">
+      <a href="https://www.tamar.org.br/" target="_blank">
+        <img src="img/logoProjetoTamar.png" alt="Logo da ONG: Projeto Tamar">
+      </a>
+    </div>
+    <div id="SUIPA">
+      <a href="https://www.suipa.org.br/" target="_blank">
+        <img src="img/logoSUIPA.png" alt="Logo da ONG: SUIPA">
+      </a>
+    </div>
   </section>
 
   <section class="grid-section" id="aves">
     <h1 class="titulo">Animais em Extinção Aves</h1>
    <ul class="animais-lista js-tabmenu">
+
+<!-- seção dos animais Aves--> 
+  <section class="grid-section" > <!-- grid-section identifica a seção para manipular em css e js--> 
+    <h1 class="titulo">Animais em Extinção Aves</h1><!-- titulo identifica h1 dentro de grid-section para manipular somente esse h1 em css e js--> 
+    <div class="secao"><!-- essa div coloquei para criar uma grid sendo que por padrão a section é none css e js--> 
+   <ul class="animais-lista js-tabmenu"><!-- animais-lista serve para manipular todas as imagens dessa seção-->
     <li>
       <img src="img/arara-azul-635338985.jpg">
       
@@ -69,13 +79,20 @@
       <img src="img/2-soldadinho-do-araripe.jpg">
       
     </li>
+    <li>
+      <img src="img/tucano.jpg">
+      
+    </li>
+
 
     
     
    </ul>
-  <div class="animais-descricao ">
+   
   
-    <ul class="animais js-tabcontent">
+  <div class="animais-descricao "><!-- animais-descricao é a div referente as informações dos animais para manipular em css e js--> 
+  
+    <ul class="animais js-tabcontent"> <!--ul que essas informações coloquei cada informação dentro de uma lista para manipular todas ataves de animais-->
       <li>
       <h2> Arara-Azul-Pequena </h2>
       <p>
@@ -103,44 +120,77 @@
 
       Pouco se sabe sobre os hábitos da ararajuba, o que dificulta a sua conservação. Atualmente, segundo o Livro Vermelho do ICMBio (2016), ela é considerada em risco vulnerável de extinção.
     </p>
-    <img src="img/Ararajuba-Mapa.png">
+    <img src="img/Antilophia_bokermanni_distribuition_map.svg.png">
+  </li>
+  <li>
+    <h2> Tucano-de-bico-preto </h2>
+    <p>
+      O Tucano-de-bico-preto vive em florestas tropicais da América do Sul. Essa linda ave está ameaçada de extinção principalmente devido à destruição de seus habitats naturais. Além disso, como são animais curiosos, são facilmente atraídos por traficantes de animais.
+    </p>
+    
+      <img src="img/mapaocorrencia.png">
+ 
+   
   </li>
   </ul>
 
   </div>
+</div>
+
+<ul class="video"> <!-- area de videos informativos sobre os animais identificado por video para manipular em css e js-->
+  <li>
+    <iframe width="275" height="315"
+src="https://www.youtube.com/embed/n51US87QtLc">
+</iframe>
+  </li>
+  <li>
+
+<iframe width="275" height="315"
+src="https://www.youtube.com/embed/Q5mYPTmjwco" >
+</iframe>
+  </li>
+  <li>
+
+    <iframe width="275" height="315"
+    src="https://www.youtube.com/embed/dZwCDdU2gTc" >
+    </iframe>
+      </li>
+</ul>
  
   </section>
-  <section  id="repteis">
-    <h1 >Animais em Extinção Répteis</h1>
-   <ul >
+  <!-- As proximas seções segue a mesma logica da primeira-->
+  <!-- seção dos animais Repteis--> 
+  <section class="grid-section1"  id="repteis">
+    <h1 class="titulo2">Animais em Extinção Répteis</h1>
+   <ul class="animais-lista1 js-tabmenu1" >
     <li>
-      <img src="img/arara-azul-635338985.jpg">
+      <img src="img/">
       
     </li>
   
     <li>
-      <img src="img/ararajuba-cke.jpg">
+      <img src="img/">
       
     </li>
     
     <li>
-      <img src="img/2-soldadinho-do-araripe.jpg">
+      <img src="img/">
       
     </li>
 
     
     
    </ul>
-  <div >
+  <div class="animais-descricao1 " >
   
-    <ul >
+    <ul class="animais1 js-tabcontent1">
       <li>
-      <h2> Arara-Azul-Pequena </h2>
+      <h2>  </h2>
       <p>
-        A ave, natural da bacia do Rio Paraná, pertence à família das araras e também apresenta um rabo longo e um bico marcante. As últimas pesquisas de ornitólogos foram realizadas nos anos 90 e nenhuma população da espécie foi encontrada, embora existam boatos de que ainda restam alguns exemplares nas florestas no oeste do Paraguai. A extinção aconteceu principalmente pela destruição da palmeira Butia yatay, cujos frutos eram base alimentar da espécie.
+   
       </p>
       
-        <img src="img/Arara-azul-grande-mapa.png">
+        <img src=>
    
      
     </li>

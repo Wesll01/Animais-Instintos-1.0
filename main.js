@@ -1,11 +1,9 @@
 function initTabNav() {
-
   const tabMenu = document.querySelectorAll('.js-tabmenu li');
   const tabContent = document.querySelectorAll('.js-tabcontent li');
   tabContent[0].classList.add('ativo');
   
   if(tabContent.length && tabMenu.length){
-  
     function activeTab(index){
       tabContent.forEach((li)=>{
         li.classList.remove('ativo');
@@ -18,34 +16,12 @@ function initTabNav() {
         activeTab(index);
 
       });
-  
     });
   }
 }
 
-initTabNav();
-
-function initAccordion(){
-  const accordionList = document.querySelectorAll('.js-accordion dt');
-  const activeClass = 'ativo';
-
-  if(accordionList.length ){
-    accordionList[0].classList.add(activeClass);
-    accordionList[1].nextElementSibling.classList.add(activeClass);
-    function actibeAccordion(){
-      this.classList.toggle('ativo');
-      this.nextElementSibling.classList.toggle('ativo');
-    }
-
-    accordionList.forEach((item)=>{
-      item.addEventListener('click',actibeAccordion);
-  
-    })
-  }
-}
+initTabNav();/* função para as imagens onde no evento de clique do animal a descrição aparece onde ele associa a li do da imagem a li de descrição */
  
-initAccordion();
-  
 function initNav(){
   const navMenu = document.querySelectorAll('.navmenu li');
   const navContent = document.querySelectorAll('section');
@@ -65,11 +41,10 @@ function initNav(){
         activTab(index);
 
       });
-    
     });
   }
 }
     
-initNav();
+initNav(); // função para o menu onde associa a li do menu clicado a seção do animal correspondente 
 
 console.log(navContent);
